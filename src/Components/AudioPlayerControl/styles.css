@@ -1,0 +1,260 @@
+.img-album {
+  width: 100%;
+  height: auto;
+}
+
+.rhap_additional-controls{
+  display: none;
+}
+
+.dropdown-menu{
+  width: auto !important;
+}
+/* .rhap_skip-button {
+  display: none;
+} */
+/* -------------------------- */
+
+.player #main-content {
+  color: white;
+  overflow: hidden;
+  padding: 7px;
+}
+
+.player #main-content h5 {
+  color: #828282;
+}
+
+.player #main-content h1.play-list-name {
+  margin: 15px 0 40px;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 40px;
+  color: #fff;
+  /* text-transform: uppercase; */
+}
+
+.player #main-content .player-controler {
+  width: 100%;
+  background-color: #282828;
+  padding: 11px 21px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.player #main-content .player-controler .music-info {
+  color: #fff;
+  font-weight: 700;
+  font-size: 19px;
+  padding: 11px 0;
+}
+
+.player #main-content .player-controler #controls {
+  display: block;
+  clear: both;
+}
+
+.player #main-content .player-controler #controls #bt-next,
+.player #main-content .player-controler #controls #bt-pause,
+.player #main-content .player-controler #controls #bt-play {
+  background-image: url(https://player.bananas.mus.br/View/Images/btn-play.png);
+  background-repeat: no-repeat;
+  width: 41px;
+  height: 41px;
+  display: block;
+  text-indent: -9999px;
+  float: left;
+}
+
+.player #main-content .player-controler #controls #bt-pause {
+  background-image: url(https://player.bananas.mus.br/View/Images/btn-pause.png);
+}
+
+.player #main-content .player-controler #controls #bt-next {
+  background-image: url(https://player.bananas.mus.br/View/Images/btn-pause.png);
+}
+
+.player #main-content .player-controler #controls #progress-bar {
+  height: 5px;
+  width: 327px;
+  background: #67d3d0;
+  border: 0;
+  border-radius: 2.5px;
+  float: left;
+  margin: 18px 0 0 25px;
+}
+
+.player
+  #main-content
+  .player-controler
+  #controls
+  #progress-bar.progress-loader {
+  background-color: #828282;
+}
+
+.player
+  #main-content
+  .player-controler
+  #controls
+  #progress-bar
+  .ui-slider-range {
+  height: 5px;
+  background: #67d3d0;
+  border-radius: 2.5px;
+}
+
+.player
+  #main-content
+  .player-controler
+  #controls
+  #progress-bar
+  .ui-slider-handle {
+  display: none;
+}
+
+.player
+  #main-content
+  .player-controler
+  #controls
+  #progress-bar.ui-state-disabled {
+  opacity: 1;
+}
+
+.player #main-content .player-controler #controls #current-time {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 400;
+  float: left;
+  margin: 15px 5px;
+}
+
+.player #main-content .player-controler #controls #bt-dislike,
+.player #main-content .player-controler #controls #bt-like {
+  background-image: url(https://player.bananas.mus.br/View/Images/btn-like.png);
+  width: 31px;
+  height: 31px;
+  display: block;
+  text-indent: -9999px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 21px;
+}
+
+.player #main-content .player-controler #controls #bt-dislike {
+  margin-left: 17px;
+  background-image: url(https://player.bananas.mus.br/View/Images/btn-dislike.png);
+}
+
+.player #main-content .player-controler #controls #volume {
+  float: left;
+  margin: 10px 0 0 12px;
+}
+
+.player #main-content .player-controler #controls #volume #volume-label {
+  background-image: url(https://player.bananas.mus.br/View/Images/icon-volume.png);
+  background-repeat: no-repeat;
+  float: left;
+  height: 15px;
+  width: 17px;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.player #main-content .player-controler #controls #volume #volume-slider {
+  background-color: #828282;
+  border: 0;
+  float: left;
+  height: 5px;
+  margin: 8px 0 0 10px;
+  width: 65px;
+  border-radius: 2.5px;
+}
+
+.player
+  #main-content
+  .player-controler
+  #controls
+  #volume
+  #volume-slider
+  .ui-slider-range {
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: #67d3d0;
+}
+
+.player
+  #main-content
+  .player-controler
+  #controls
+  #volume
+  #volume-slider
+  .ui-slider-handle {
+  border-radius: 50%;
+  border: 0;
+}
+
+.player #main-content .next-songs {
+  font-size: 21px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 42px;
+  display: block;
+  padding: 5px 10px;
+}
+
+.player #main-content .list {
+  padding: 0 5px;
+  overflow: hidden;
+  height: 199px;
+}
+
+.player #main-content .list li {
+  border-top: 1px solid #282828;
+  height: 38px;
+  line-height: 38px;
+  color: #828282;
+  font-size: 13px;
+}
+
+.player #main-content .list li.arrow {
+  display: none !important;
+}
+
+.player #main-content .list li .time {
+  float: right;
+}
+
+.player #main-content .list li .new {
+  border: 1px solid #353434;
+  border-radius: 3px;
+  font-size: 9px;
+  padding: 1px 5px;
+  float: right;
+  line-height: normal;
+  margin: 11px 15px 0 0;
+}
+
+.rhap_container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  font-family: inherit;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #282828;
+  box-shadow: 0 0 3px 0 rgb(0 0 0 / 20%);
+  color: white;
+}
+
+.rhap_header {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.rhap_time {
+  color: #fff;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+}

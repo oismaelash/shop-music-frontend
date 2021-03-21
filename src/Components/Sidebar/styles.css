@@ -1,0 +1,47 @@
+.player #side-bar {
+  height: 100%;
+  width: 213px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+.player #side-bar .logo {
+  padding: 5px;
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.player #side-bar .block {
+  padding: 0 35px;
+}
+
+.player #side-bar .block h2 {
+  font-weight: 700;
+  font-size: 13px;
+  color: #828282;
+  margin-top: 40px;
+  margin-bottom: 11px;
+  display: block;
+}
+
+.player #side-bar .block .list {
+  width: 130px;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.player #side-bar .block .list li {
+  cursor: pointer;
+  color: #828282;
+  border-top: 1px solid #1e1e1e;
+  height: 33px;
+  line-height: 33px;
+  font-size: 13px;
+  display: block;
+}
